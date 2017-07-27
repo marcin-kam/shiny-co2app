@@ -105,6 +105,3 @@ shinyServer(function(input, output) {
     plot_ly(temp, x=~data, type = 'histogram', autobinx = FALSE, xbins = bins)
   })
 })
-
-##### RSelenium unit testing
-##### test na select, range, label
